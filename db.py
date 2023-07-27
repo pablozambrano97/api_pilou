@@ -12,7 +12,7 @@ def create_tables():
                 name TEXT NOT NULL,
                 age INTEGRER NOT NULL,
                 phone INTEGER NOT NULL,
-                photo TEXT NOT NULL,
+                photo BLOB NOT NULL,
                 email TEXT NOT NULL,
                 nick TEXT NOT NULL
             )"""
